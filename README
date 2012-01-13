@@ -1,0 +1,10 @@
+This is a simple script lets you flash a message on the document page title.
+
+It is best to only call the flasher when page is not visible. See the following gist
+for a simple Page Visiblity Polyfill for jQuery (it adds $.visibilityState).
+
+https://gist.github.com/1604828
+
+
+
+Note, this code is place up in jQuery ($.doc_title_flasher) for namespace purposes. 
