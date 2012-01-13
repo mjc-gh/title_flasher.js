@@ -1,13 +1,10 @@
 This is a simple script that lets you flash a message via the document page title. 
 
-It is best to only call the flasher when the page is not visible. See the following gist
-for a simple Page Visiblity Polyfill for jQuery (it adds $.visibilityState).
-
+It is best to only call the flasher when the page is not visible. See the following gist for a simple Page Visiblity Polyfill for jQuery (it adds $.visibilityState):
 
 https://gist.github.com/1604828
 
-(If you do use this gist, please read the comments and note the difference between the real
-HTML5 API and using the focus\blur failback)
 
+If you do use this gist, please read the comments and note the difference between the real HTML5 API and using the focus\blur failback
 
 Note, this code is placed under the jQuery object for namespace purposes. 
